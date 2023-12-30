@@ -59,7 +59,7 @@ ul li a {
 /* Hero section */
 
 .hero-banner {
-  position: fixed;
+  position: absolute;
   top: 0%;
   right: 0%;
   z-index: -1;
@@ -115,9 +115,69 @@ ul li a {
 }
 
 
+/* About us */
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20rem;
+}
+
+.section-heading {
+   font-size: 1.5rem;
+   font-weight: 800;
+   color: #FE9E0D;
+   font-family: Reem Kufi;
+   text-transform: uppercase;
+}
 
 
+.about-left h2{
+   color: #4C4C4C;
+   font-family: "Montserrat";
+   font-size: 3rem;
+   font-weight: 700;
+   line-height: 4.5rem;
+   letter-spacing: 0em;
+   text-align: left;
+   margin-top: 1rem;
+}
 
+.about-left p {
+   margin: 2rem 0;
+   font-family: "";
+   font-size: 1.5rem;
+   font-weight: 500;
+   line-height: 2rem;
+   letter-spacing: 0em;
+   text-align: left;
+   color:#828282;
+}
+
+.about-icons{
+   display: flex;
+   align-items: center;
+}
+
+
+.about-icons span{
+   font-size: 2.8rem;
+   margin-left: 1.5rem;
+}
+.about-icons small{
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Montserrat";
+  color: #515151;
+}
+
+.about-banner {
+   position: absolute;
+   top: 110%;
+   left: 0;
+   z-index: -1;
+   width: 20%;
+}
 
 
 
