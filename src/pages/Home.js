@@ -1,4 +1,5 @@
 import About from "../components/About";
+import Facilities from "../components/Facilities";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
@@ -9,6 +10,7 @@ function Home (){
         <Navbar />
         <Hero />
         <About />
+        <Facilities />
       </>
    );
 };
