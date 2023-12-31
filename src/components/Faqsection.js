@@ -2,7 +2,6 @@ function Faqsection(){
     return (
       <section
         className="container faq-section facilities-container "
-        style={{ display: "none" }}
       >
         <div className="faq-left">
           <h2>Have Question In Mind? Let Us Help You</h2>

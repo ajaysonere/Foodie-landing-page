@@ -2,7 +2,6 @@ function Footer(){
     return (
       <footer
         className="container footer-container"
-        style={{ display: "none" }}
       >
         <div className="footer-left">
           <p className="logo">FOODIE</p>
