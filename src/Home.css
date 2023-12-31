@@ -190,13 +190,15 @@ ul li a {
    text-align: center;
 }
 
-.work-left {
+.work-left,
+.testimonials-left{
    width: 50%;
    padding: 5rem;
    justify-content: center;
 }
 
-.work-left h2{
+.work-left h2,
+.testimonials-left h2{
    color: #4C4C4C;
    font-family: "Montserrat";
    font-size: 3rem;
@@ -207,7 +209,8 @@ ul li a {
 }
 
 .work-left p,
-.work-right p{
+.work-right p,
+.testimonials-left p{
    margin: 2rem 0;
    font-family: "Montserrat";
    font-size: 1.5rem;
@@ -224,7 +227,7 @@ ul li a {
    gap: 3rem;
 }
 
-.work-right .card {
+.card {
    background: #fff;
    margin: 2rem 0;
    text-align: center;
@@ -243,12 +246,32 @@ ul li a {
   font-family: "Montserrat";
 }
 
-.card p {
+.card p{
   font-size: 1.2rem;
   text-align: center;
+  font-family: "Montserrat";
+  color: #828282;
+  font-weight: 500;
 }
 
 
+/* Testimonials */
+.testimonials-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 3rem 5rem;
+}
+
+.testimonials-right img{
+   width: 5rem;
+}
+
+.rating span {
+   font-size: 2rem;
+}
 
 
 
