@@ -394,6 +394,37 @@ ul li a {
       font-size: 0.8rem;
       font-weight: 700;
    }
+   
+   .facilities-container{
+      gap: 3rem;
+   }
+   
+   .work-left {
+      width: 80%;
+   }
+   .work-left h2{
+     font-size: 2rem;
+     font-weight: 700;
+     line-height: 1.8;
+   }
+   .work-left p{
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-top: 0.8rem;
+   }
+   .work-right{
+     gap: 2rem;
+   }
+   .card{
+     padding: 1rem;
+   }
+   .card h4{
+     font-size: 1.2rem;
+   }
+   .card p{
+     font-size: 1rem;
+   }
+   
 }
 
 @media screen and (max-width: 1200px ){
@@ -494,10 +525,19 @@ ul li a {
    }
    
    .about-container img {
-     width: 26rem;
+     width: 30rem;
    }
+   
    .mobile-hide{
       display: none;
+   }
+   
+   .work-right{
+     gap: 1.5rem;
+   }
+   
+   .card span{
+     font-size: 3rem;
    }
    
 }
@@ -563,8 +603,23 @@ ul li a {
      gap: 1%;
      margin: 5rem 0;
    }
+   
    .about-banner{
      display: none;
+   }
+   
+   
+   
+   .work-left {
+     width: 100%;
+     margin-top: -10rem;
+     padding: 0;
+   }
+   
+   
+   .work-right {
+     grid-template-columns: 1fr 1fr;
+     gap: 2rem;
    }
    
 }
@@ -582,6 +637,11 @@ ul li a {
    
    .about-container img {
       width: 15rem;
+   }
+   
+   .work-right {
+     grid-template-columns: 1fr;
+     gap: 1rem;
    }
    
 
