@@ -425,6 +425,25 @@ ul li a {
      font-size: 1rem;
    }
    
+   .testimonials-left{
+      width: 80%;
+   }
+   
+   .testimonials-left h2{
+     font-size: 2rem;
+     font-weight: 700;
+     line-height: 1.8;
+   }
+   .testimonials-left p{
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-top: 0.8rem;
+   }
+   .testimonials-left{
+     gap: 2rem;
+   }
+   
+   
 }
 
 @media screen and (max-width: 1200px ){
@@ -482,8 +501,35 @@ ul li a {
       font-size: 0.8rem;
       font-weight: 700;
    }
+   
+   .work-left h2{
+     font-size: 1.5rem;
+     font-weight: 700;
+     line-height: 1.5;
+   }
+   .work-left p {
+      font-size: 1rem;
+      font-weight: 400;
+   }
+   
+   .testimonials-left {
+      width: 80%;
+   }
+    
+    .testimonials-right{
+      width: 70%;
+    }
     
     
+    .testimonials-left h2{
+     font-size: 1.5rem;
+     font-weight: 700;
+     line-height: 1.5;
+   }
+   .testimonials-left p {
+      font-size: 1rem;
+      font-weight: 400;
+   }
     
 }
 
@@ -538,6 +584,14 @@ ul li a {
    
    .card span{
      font-size: 3rem;
+   }
+   
+   .testimonials-left {
+      width: 90%;
+   }
+   
+   .testimonials-right {
+     width: 70%;
    }
    
 }
@@ -622,6 +676,16 @@ ul li a {
      gap: 2rem;
    }
    
+   .testimonials-left {
+      width: 100%;
+   }
+   
+   .testimonials-right{
+     width: 90%;
+   }
+   
+   
+   
 }
 
 @media screen and (max-width: 576px){
@@ -644,6 +708,14 @@ ul li a {
      gap: 1rem;
    }
    
+   .testimonials-left{
+      width: 100%;
+      padding: 0;
+   }
+   
+   .testimonials-right span {
+      font-size: 1.8rem;
+   }
 
 }
 

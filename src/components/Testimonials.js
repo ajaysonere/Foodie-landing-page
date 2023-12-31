@@ -3,9 +3,7 @@ import testImage from '../assests/Ellipse 1.png';
 function Testimonials(){
     return (
       <section
-        className="container testimonials-container facilities-container"
-        style={{ display: "none" }}
-      >
+        className="container testimonials-container facilities-container"  >
         <div className="testimonials-left">
           <small className="section-heading">Testimonials</small>
           <h2>What they are saying </h2>
