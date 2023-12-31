@@ -1,6 +1,6 @@
 function Facilities() {
    return (
-     <div className="container facilities-container">
+     <div className="container facilities-container" style={{display:"none"}}>
        <div className="work-left">
          <small className="section-heading">work</small>
          <h2>How It Works</h2>

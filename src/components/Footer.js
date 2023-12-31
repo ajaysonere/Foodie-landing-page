@@ -1,6 +1,9 @@
 function Footer(){
     return (
-      <footer className="container footer-container">
+      <footer
+        className="container footer-container"
+        style={{ display: "none" }}
+      >
         <div className="footer-left">
           <p className="logo">FOODIE</p>
           <div className="footer-icons">
@@ -26,8 +29,8 @@ function Footer(){
             <small>example@gmail.com</small>
           </div>
           <div className="footer-card">
-             <small>Terms & conditions</small>
-             <small>Privacy Policy</small>
+            <small>Terms & conditions</small>
+            <small>Privacy Policy</small>
           </div>
         </div>
       </footer>

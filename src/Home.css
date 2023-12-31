@@ -123,6 +123,10 @@ ul li a {
     margin-top: 20rem;
 }
 
+.about-container img {
+  width: 42rem;
+}
+
 .section-heading {
    font-size: 1.5rem;
    font-weight: 800;
@@ -176,7 +180,8 @@ ul li a {
    top: 110%;
    left: 0;
    z-index: -1;
-   width: 20%;
+   width: 15%;
+   margin-top: 5rem;
 }
 
 
@@ -358,10 +363,36 @@ ul li a {
    .hero-banner {
      width: 50%;
    }
-   
-   
+
    .hero-right img {
       width: 37rem;
+   }
+   
+   .about-left h2{
+     font-size: 2rem;
+     font-weight: 700;
+     line-height: 1.8;
+   }
+   .about-left p {
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-top: 0.8rem;
+   }
+   .about-banner {
+     margin-top: 10rem;
+     width: 18%;
+   }
+   
+   .about-container img {
+     width: 37rem;
+   }
+   .about-icons span{
+      font-size: 2rem;
+      margin-left: 0.8rem;
+   }
+   .about-icons small{
+      font-size: 0.8rem;
+      font-weight: 700;
    }
 }
 
@@ -371,19 +402,19 @@ ul li a {
     }
     
     .hero-banner {
-      width: 70%;
+      width: 55%;
     }
     
     nav  ul{
       gap: 1.5rem;
     }
     
-    .hero-left {
+    /* .hero-left {
       border: 1px solid red;
     }
     .hero-right {
       border: 1px solid green;
-    }
+    } */
     
     .hero-left h2 {
       font-size: 2rem;
@@ -392,8 +423,37 @@ ul li a {
     }
     
     .hero-right img {
-       width: 30rem;
+       width: 25rem;
     }
+    
+    .about-left h2{
+     font-size: 1.5rem;
+     font-weight: 700;
+     line-height: 1.5;
+   }
+   .about-left p {
+      font-size: 1rem;
+      font-weight: 400;
+   }
+   .about-banner {
+     margin-top: 20rem;
+     width: 15%;
+   }
+   
+   .about-container img {
+     width: 30rem;
+   }
+   .about-icons span{
+      font-size: 1.5rem;
+      margin-left: 0.3rem;
+   }
+   .about-icons small{
+      font-size: 0.8rem;
+      font-weight: 700;
+   }
+    
+    
+    
 }
 
 
@@ -418,6 +478,28 @@ ul li a {
    .hero-banner {
      width: 50%;
    }
+   
+    .about-left h2{
+     font-size: 1.5rem;
+     font-weight: 700;
+     line-height: 1.5;
+   }
+   .about-left p {
+      font-size: 1rem;
+      font-weight: 400;
+   }
+   .about-banner {
+     margin-top: 20rem;
+     width: 18%;
+   }
+   
+   .about-container img {
+     width: 26rem;
+   }
+   .mobile-hide{
+      display: none;
+   }
+   
 }
 
 @media screen and (max-width: 786px ) {
@@ -427,6 +509,10 @@ ul li a {
    
    .toggle-btn {
       display: block;
+   }
+   
+   .hero-right img {
+      display: none;
    }
    
    ul button {
@@ -461,6 +547,43 @@ ul li a {
       margin-top: 15rem;
       text-align: center;
    }
+   
+   .about-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     margin-top: -5rem;
+   }
+   
+   .about-left {
+     display: grid;
+     place-items: center;
+     width: 90%;
+     gap: 1%;
+     margin: 5rem 0;
+   }
+   .about-banner{
+     display: none;
+   }
+   
 }
 
+@media screen and (max-width: 576px){
+   .logo{
+     font-size: 2rem;
+   }
+   .hero-banner{
+     display: none;
+   }
+   .about-container {
+     margin-inline: auto;
+   }
+   
+   .about-container img {
+      width: 15rem;
+   }
+   
+
+}
 
