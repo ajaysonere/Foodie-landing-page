@@ -191,14 +191,16 @@ ul li a {
 }
 
 .work-left,
-.testimonials-left{
+.testimonials-left,
+.faq-left{
    width: 50%;
    padding: 5rem;
    justify-content: center;
 }
 
 .work-left h2,
-.testimonials-left h2{
+.testimonials-left h2,
+.faq-left h2{
    color: #4C4C4C;
    font-family: "Montserrat";
    font-size: 3rem;
@@ -271,6 +273,26 @@ ul li a {
 
 .rating span {
    font-size: 2rem;
+}
+
+/* Faq section */
+
+.faq-right{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #fff;
+   width: 50%;
+   padding: 2rem;
+   border-radius: 10rem;
+}
+
+.faq-right input {
+   width: 70%;
+   font-size: 1.2rem;
+   font-family: "Montserrat";
+   color: #828282;
+   font-weight: 500;
 }
 
 
