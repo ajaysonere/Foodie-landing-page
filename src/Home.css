@@ -295,6 +295,47 @@ ul li a {
    font-weight: 500;
 }
 
+/* Footer section */
+
+.footer-container {
+   display: grid;
+   grid-template-columns: 30% 60%;
+   margin: 10rem 0 5rem 0;
+}
+
+.footer-icons{
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.footer-icons i {
+  font-size: 1.5rem;
+}
+
+.footer-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0%;
+  text-align: center;
+}
+
+
+.footer-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-card small{
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Montserrat";
+  color: #828282;
+  font-weight: 400;
+  margin: 0.5rem;
+  cursor: pointer;
+}
 
 
 /* Media query */
