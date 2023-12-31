@@ -605,6 +605,11 @@ ul li a {
      width: 70%;
    }
    
+   .footer-right {
+      grid-template-columns: 1fr 1fr;
+      gap: 5%;
+   }
+   
 }
 
 @media screen and (max-width: 786px ) {
@@ -697,6 +702,7 @@ ul li a {
    
    
    
+   
 }
 
 @media screen and (max-width: 576px){
@@ -745,6 +751,32 @@ ul li a {
        border-radius: 100px;
        padding: 2rem;
        font-size: 1rem;
+   }
+   
+   .footer-container{
+      display: block;
+      text-align: center;
+   }
+   .logo{
+     text-align: center;
+   }
+   
+   .footer-icons{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 2rem 0;
+   }
+   
+   .footer-right {
+      display: grid;
+      grid-template-columns: 1fr;
+      place-items: center;
+   }
+   
+   .footer-right {
+      grid-template-columns: 1fr;
+      gap: 5%;
    }
 
 }
