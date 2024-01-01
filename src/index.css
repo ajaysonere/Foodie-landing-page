@@ -21,6 +21,17 @@ body{
   --container-widht-md:90%;
 }
 
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #FE9E0D;
+  outline: 10px solid #FE9E0D;
+}
+
+
 .container {
   width: var(--container-width-lg);
   margin-inline: auto;
